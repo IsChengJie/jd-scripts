@@ -44,7 +44,7 @@ jobs:
           node jd_syj.js # 十元街
           node jd_bean_home.js # 领京豆额外奖励&抢京豆
           node jd_rankingList.js # 京东排行榜
-          node jx_sign.js # 京喜签到+双签
+          # node jx_sign.js # 京喜签到+双签
           node jd_sgmh.js # 闪购盲盒
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
